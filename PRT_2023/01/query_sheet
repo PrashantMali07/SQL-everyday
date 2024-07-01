@@ -1,0 +1,34 @@
+-- Data Science PRT 2023
+
+CREATE TABLE StudentPerformane(
+	id SERIAL,
+	gender VARCHAR(10),
+	race_ethnicity VARCHAR(15),
+	parental_level_of_education VARCHAR(30),
+	lunch VARCHAR(20),
+	test_preparation_course VARCHAR(15),
+	math_score INT,
+	reading_score INT,
+	writing_score INT
+);
+
+SELECT * FROM StudentPerformane;
+
+
+CREATE TABLE SupermartGocerySales(
+	Order_ID VARCHAR(10),
+	Customer_Name VARCHAR(25),
+	Category VARCHAR(40),
+	Sub_Category VARCHAR(40),
+	City VARCHAR(40),
+	Order_Date VARCHAR(10),
+	Region VARCHAR(10),
+	Sales FLOAT,
+	Discount FLOAT,
+	Profit FLOAT,
+	State VARCHAR(15) 
+);
+
+SELECT Order_Date, LENGTH(Order_Date) AS char_len FROM SupermartGocerySales;
+
+SHOW datestyle;
