@@ -5,7 +5,7 @@
 - **Target variable:** 1 binary/continuous column named `target`  
 - **Data type:** Mostly continuous; some features exhibit mild skewness.  
 - **Missing values:** < 0.5% across all columns, handled with mean imputation in the preprocessing pipeline.  
-- **Outlier handling:** Outliers identified via IQR and 3σ rules; removed or robustly scaled depending on feature importance (see `preprocessing.py`).  
+- **Outlier handling:** Outliers identified via IQR and 3σ rules; removed or robustly scaled depending on feature importance.  
 
 This dataset is ready for exploratory analysis, model training, and benchmarking of machine‑learning algorithms.  
 
