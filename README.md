@@ -85,4 +85,5 @@ The following SQL clauses and functions were extensively used in this project:
     ```bash
     git clone [https://github.com/PrashantMali07/SQL-everyday.git](https://github.com/PrashantMali07/SQL-everyday.git)
     ```
- Data Analysis** project mentioned above, explaining the schema relationships and solving the standard "Easy-Moderate-Advanced" business questions typically associated with this portfolio project.
+
+   **Data Analysis** project mentioned above, explaining the schema relationships and solving the standard "Easy-Moderate-Advanced" business questions typically associated with this portfolio project.
